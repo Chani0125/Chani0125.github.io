@@ -8,6 +8,7 @@ Link: <https://chani0125.github.io/>
 ## 1. Git 학습
 아래 링크에 포스트 해놓았다.
 Link: <https://chani0125.github.io/posts/Git-Github/>
+SubLink: <https://chani0125.github.io/categories/>
 
 ## 2. 블로그 생성
 
