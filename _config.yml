@@ -81,7 +81,7 @@ theme_mode:   # [light|dark]
 img_cdn: 'https://demo-img.cotes.page'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/assets/img/avatars/minchoCake.png'
+avatar: '/assets/img/mincho512.jpg'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
