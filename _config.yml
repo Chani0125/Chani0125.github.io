@@ -87,7 +87,7 @@ avatar: '/assets/img/mincho512.jpg'
 toc: true
 
 comments:
-  active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: disqus         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname: mincho-park-blog   # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
