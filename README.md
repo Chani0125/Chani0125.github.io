@@ -75,3 +75,23 @@ push를 하게되면 github은 자동으로 블로그 페이지를 만들어 준
 - 들어가 보기
 <img src="https://user-images.githubusercontent.com/71829572/204814940-67957c06-fd72-46cf-b6db-8871442664bf.png"/>
 나의 깃허브 블로그 사이트에 들어가서 잘 나오는지 확인했다.
+
+## 3. 블로그 꾸미기
+
+### 1. 댓글 기능 추가
+
+Disqus 사이트를 이용해서 댓글 기능을 추가하였다.
+
+- Disqus 가입
+웹페이지 이름을 정하고, Website URL에 블로그 주소를 입력했다.
+<img src="https://user-images.githubusercontent.com/71829572/204822926-bff5db7b-676d-4a66-9e55-33102a72e6fa.png"/>
+
+- Disqus 세팅
+Disqus 사이트 정보에 있는 `Shortname`을 `_config.yml`에 사용했다.
+``` yml
+comments:
+  active: disqus
+  disqus:
+    shortname: mincho-park-blog
+```
+
