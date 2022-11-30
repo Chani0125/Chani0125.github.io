@@ -19,7 +19,14 @@ Link: <https://chani0125.github.io/>
 git clone <원격 저장소 주소>
 ```
 
-- 이후 `_config.yml` 파일에서 세부사항을 작성한다.
+- _config.yml` 파일에서 세부사항을 작성한다.
+
+- `lang': `ko-KR`로 언어 설정
+- `timezone`: `Asia/Seoul`로 설정
+- `title`: 제목
+- `tagline`: 타이틀 밑에 내용
+- `url`: 블로그 주소
+- `avatar`: 아바타로 사용할 사진 위치
 
 ### 2. Jekyll
 
