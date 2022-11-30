@@ -96,3 +96,5 @@ comments:
     shortname: mincho-park-blog
 ```
 
+### Favicon 추가
+테마 적용 시에 Favicon 설정 방법이 있어 해당 방법을 따라했다.
