@@ -5,7 +5,10 @@ Link: <https://chani0125.github.io/>
 
 # 블로그 제작 과정
 
-## 1. 블로그 생성
+## 1. Git 및 Markdown 학습
+
+
+## 2. 블로그 생성
 
 ### 1. Fork
 
@@ -23,7 +26,7 @@ git clone <원격 저장소 주소>
 
 #### _config.yml` 파일에서 세부사항을 작성했다.
 
-- `lang': `ko-KR`로 언어 설정
+- `lang`: `ko-KR`로 언어 설정
 - `timezone`: `Asia/Seoul`로 설정
 - `title`: 제목
 - `tagline`: 타이틀 밑에 내용
