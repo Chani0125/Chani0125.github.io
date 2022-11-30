@@ -19,7 +19,9 @@ Link: <https://chani0125.github.io/>
 git clone <원격 저장소 주소>
 ```
 
-- _config.yml` 파일에서 세부사항을 작성한다.
+### 2. 블로그 초기 설정
+
+#### _config.yml` 파일에서 세부사항을 작성한다.
 
 - `lang': `ko-KR`로 언어 설정
 - `timezone`: `Asia/Seoul`로 설정
@@ -27,17 +29,20 @@ git clone <원격 저장소 주소>
 - `tagline`: 타이틀 밑에 내용
 - `url`: 블로그 주소
 - `avatar`: 아바타로 사용할 사진 위치
+- `theme` : dark와 light 중 선택
 
-### 2. Jekyll
+#### 추가 작업
+
+###### `.github\workflows`에 있는 `pages-deploy.yml.hook`파일을 수정
+1. `braches`를 소스가 위치할 브랜치 이름으로 수정한다. (`main`으로 함)
+2. `ruby` 버전이 자신의 것과 맞는 버전으로 수정한다. (`3.1`로 했음)
+3. 파일의 이름에서 `.hook`확장자를 제거한다.
+
+### 3. Jekyll
 
 - Jekyll 설치 확인
 ``` bash
 jekyll -v
-```
-
-- 현재 디렉토리에 Jekyll 설치
-``` bash
-jekyll new . --force
 ```
 
 - Jekyll 실행하기
