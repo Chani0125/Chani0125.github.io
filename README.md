@@ -33,7 +33,7 @@ git clone <원격 저장소 주소>
 
 #### 추가 작업
 
-###### `.github\workflows`에 있는 `pages-deploy.yml.hook`파일을 수정
+- `.github\workflows`에 있는 `pages-deploy.yml.hook`파일을 수정
 1. `braches`를 소스가 위치할 브랜치 이름으로 수정한다. (`main`으로 함)
 2. `ruby` 버전이 자신의 것과 맞는 버전으로 수정한다. (`3.1`로 했음)
 3. 파일의 이름에서 `.hook`확장자를 제거한다.
