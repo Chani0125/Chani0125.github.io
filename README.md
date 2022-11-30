@@ -5,8 +5,9 @@ Link: <https://chani0125.github.io/>
 
 # 블로그 제작 과정
 
-## 1. Git 및 Markdown 학습
-
+## 1. Git 학습
+아래 링크에 포스트 해놓았다.
+Link: <https://chani0125.github.io/posts/Git-Github/>
 
 ## 2. 블로그 생성
 
